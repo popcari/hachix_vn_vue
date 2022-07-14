@@ -1,0 +1,34 @@
+li,
+a {
+	cursor: pointer;
+	list-style: none;
+}
+.header__list li:hover {
+	background: #2b6ca3;
+	color: #fff;
+}
+ul {
+	display: flex;
+}
+.header {
+	width: 100%;
+	align-items: center;
+	border-bottom: 1px solid #000;
+	justify-content: space-between;
+	display: flex;
+	background-color: aliceblue;
+	height: 120px;
+}
+.header__logo {
+	cursor: pointer;
+	float: left;
+}
+.header__list li {
+	font-size: 25px;
+	padding: 30px 30px;
+}
+.header__slogan h3 {
+	color: #2b6ca3;
+	font-size: 30px;
+	text-align: center;
+}

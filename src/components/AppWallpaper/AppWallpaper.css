@@ -1,0 +1,202 @@
+.bgcWallpaper {
+    background-color:aliceblue;
+}
+.bgcWallpaper img{
+    width: 100vw;
+
+    height: 100vh;
+}
+.bgcWallpaper h3,h4 {
+    margin: 0 0 0 0;
+	padding: 10px;
+	display: block;
+	color: steelblue;
+	text-align: center;
+	font-style: italic;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+td,
+th {
+	/* width: 1000px; */
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 10px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.hello {
+	/* justify-content: space-between; */
+	display: flex;
+	flex-direction: column;
+}
+.company-info {
+	font-size: 40px;
+	display: flex;
+	padding-left: 10rem;
+	align-items: center;
+	/* margin-top: -22px; */
+	background-color: rgb(146, 145, 145);
+	height: 100px;
+	/* width: auto; */
+}
+.company-info p {
+	color: #fff;
+}
+.company-info span {
+	color: rgb(49, 115, 238);
+}
+.container {
+	margin: 10px;
+	/* background-color: burlywood; */
+	/* position: relative; */
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	width: 100%;
+}
+.container__infotable {
+	width: 70%;
+	/* margin-left: 420px; */
+	left: 50%;
+	/* transform: translate(-50%, -50%); */
+}
+.hello li {
+	padding: 10px ;
+	display: block;
+	flex-direction: column;
+	justify-content: space-between;
+}
+table{
+    width: 100%;
+}
+tr,
+th {
+	padding-top: 40px;
+	padding-bottom: 40px;}
+.company-greeting {
+        color: #ffffff;
+        font-size: 40px;
+        display: flex;
+        padding-left: 10rem;
+        align-items: center;
+        /* margin-top: -22px; */
+        background-color: rgb(146, 145, 145);
+        height: 100px;
+        /* width: auto; */
+    }
+    .greeting__main {
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: baseline;
+    }
+    .greeting__main p {
+        display: block;
+    }
+    .greeting__paragraph {
+        padding: 40px 40px;
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        float: left;
+    }
+    .greeting__paragraph p {
+        font-size: 25px;
+    }
+    .greeting__image {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .greeting__image p {
+        text-align: center;
+    }
+    .greeting__image img {
+        padding-top: 40px;
+        padding-right: 40px;
+        border-radius: 10px;
+    }
+    .greeting__image h3 {
+        /* display: inline-block; */
+        font-size: 25px;
+        font-weight: 400px;
+        text-align: center;
+    }
+    .greeting__image p {
+        /* display: inline-block; */
+        font-size: 15px;
+        text-align: center;
+    }
+    .company-services {
+        color: #ffffff;
+        font-size: 40px;
+        display: flex;
+        padding-left: 10rem;
+        align-items: center;
+        /* margin-top: -22px; */
+        background-color: rgb(146, 145, 145);
+        height: 100px;
+        /* width: auto; */
+    }
+    .services {
+        /* background-color: rgb(248, 242, 242); */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 900px;
+    }
+    /* .tech1 {
+    } */
+    .tech2 {
+        height: 25%;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .tech2 img {
+        width: 30%;
+    }
+    .tech2__paragraph {
+        align-items: center;
+        display: flex;
+        text-align: center;
+        width: 30%;
+    }
+    .tech2__technology {
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        width: 30%;
+    }
+    .tech2__technology img {
+        width: 30%;
+        height: 40%;
+    }
+    .tech3 {
+        height: 25%;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    .tech3 img {
+        width: 30%;
+    }
+    .tech4 {
+        height: 25%;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .tech4 img {
+        width: 30%;
+    }
+    

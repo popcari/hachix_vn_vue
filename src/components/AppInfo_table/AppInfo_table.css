@@ -1,0 +1,56 @@
+.container__header {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	color: rgb(0, 140, 255);
+	font-size: 40px;
+
+	text-align: center;
+}
+.container__header h1 {
+	margin: 0 0 0 0;
+}
+.avatar__image img {
+	margin: 10px;
+	border-radius: 5%;
+	width: 80%;
+	height: 250px;
+}
+
+.staff__table {
+	align-items: center;
+	height: 500px;
+	position: relative;
+	flex-direction: row;
+	justify-content: start;
+	display: flex;
+}
+.staff__box {
+	width: 30%;
+	margin: 10px 25px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 10px;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.staff__box__image {
+	position: relative;
+
+	width: 100%;
+}
+.avatar__image {
+	cursor: pointer;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.avatar__name {
+	font-family: "Roboto", sans-serif;
+	height: 10%;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	text-align: center;
+}
