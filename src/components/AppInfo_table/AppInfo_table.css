@@ -6,14 +6,20 @@
 
 	text-align: center;
 }
+.staff__container {
+	min-height: 66vh;
+	display: flex;
+	justify-content: space-evenly;
+}
 .container__header h1 {
 	margin: 0 0 0 0;
 }
 .avatar__image img {
 	margin: 10px;
 	border-radius: 5%;
-	width: 80%;
-	height: 250px;
+	width: 13vw;
+	height: 30vh;
+	border: 1px solid rgba(0, 0, 0, 0.459);
 }
 
 .staff__table {
@@ -41,7 +47,6 @@
 }
 .avatar__image {
 	cursor: pointer;
-
 	display: flex;
 	align-items: center;
 	flex-direction: column;
